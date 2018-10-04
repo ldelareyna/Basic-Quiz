@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fleetwood Mac Trivia</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--TITLE-->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="assets/images/fleetwoodmac.jpg" class="img-fluid text-center" id="main-logo" alt="Simpsons logo">
+        <h1 style="font-family: 'Cinzel', serif;" >Trivia Game</h1>
+        <hr>
+      </div>
+    </div>
+
+    <!--IMAGE AND TIMER-->
+    <div class="row">
+      <div class="col-md-3">
+        <img src="assets/images/group.jpg" class="img-fluid text-center" id="family-photo" alt="Simpsons family photo">
+        <div>
+          <h3 id="timer"></h3>
+        </div>
+      </div>
+
+      <div class="offset-md-1"></div>
+
+      <!--START PAGE-->
+      <div class="col-md-8">
+        <div id="start-page" class="start-page-text">
+          <h2>Ready to play?</h2>
+          <p>How much do you know about <i>Fleetwood Mac</i>? You have 60 seconds to answer all the questions. The game ends automatically when time has run out. Good luck!</p>
+          <div class="btn btn-primary" id="start-button">Start
+          </div>
+        </div>
+
+        <!--QUESTION PAGE-->
+      <div>
+        <div id="questions-box">
+        </div>
+      </div>
+
+      <!--SCORE PAGE-->
+        <div class="hidden" id="end-page">
+          <h2>Here are your scores:</h2>
+          <p id="correct-answers"></p>
+          <p id="incorrect-answers"></p>
+          <p id="unanswered"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="container-fluid">
+      <hr>
+      <span class="text-center">
+        <p id="copyright-small" class="text-muted">&copy; Copyright 2018 Loren Dela Reyna</p></span>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>
